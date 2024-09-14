@@ -5,10 +5,10 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Jacques Francois Shadow", serif;
-  font-weight: 400;
+  font-family: "Rampart One", sans-serif;
+  font-weight: 400px;
   font-style: normal;
-
+  
 }
 
 select:focus,
@@ -19,7 +19,7 @@ button:focus {
 
 /* -------- BODY DISPLAY --------- */
 body {
-  background-color: #222;
+  background-color: #fdb3fd;
   overflow: hidden;
   display: flex;
   justify-content: center;
@@ -41,7 +41,7 @@ body {
 }
 
 .container .box span {
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.5) 90%, transparent);
+  background: linear-gradient(90deg, rgba(243, 85, 135, 0.929), rgba(243, 85, 135, 0.929) 90%, transparent);
   text-transform: uppercase;
   line-height: 0.76em;
   position: absolute;
